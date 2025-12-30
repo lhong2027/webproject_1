@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="assets/css/common.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+        <div id="wrap">
+            <header id="header">
+                <div class="inner">
+                    <h1>
+                        <a href="index.html"
+                            ><img
+                                src="./assets/images/hana_logo_long.png"
+                                alt="로고이미지에보이는글자"
+                        /></a>
+                    </h1>
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li><a href="./pages/about.html">WISHLIST</a></li>
+                            <li><a href="./pages/sub2.html">KR</a></li>
+                            <li><a href="./pages/sub3.html">예약내역</a></li>
+                            <li><a href="./pages/sub4.html">로그인/회원가입</a></li>
+                            <li class="all-menu"><i class="bxr bx-menu"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- swiper ------------------------------------>
+            <section id="visual">
+                <div class="swiper main-banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/images/mainbanner_1.jpg" alt="#" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/mainbanner_2.jpg" alt="#" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/mainbanner_3.jpg" alt="#" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/mainbanner_4.jpg" alt="#" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/mainbanner_5.jpg" alt="#" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <div class="main">
+                <!-- --공지------------------------------------------------------->
+                <div class="notice">
+                    <a href="#">
+                        <p>
+                            <span>icon</span>
+                            <span style="font-weight: 800">공지</span>
+                            &lt;하나LIVE&gt;12월 2일 - 다낭 - 방송 구독 이벤트 당첨자 안내 당첨자
+                            안내
+                        </p>
+                    </a>
+                </div>
+
+                <!-- --검색바--------------------------------------------------------->
+                <div class="search">
+                    <h2>
+                        <span><img src="./assets/images/plane_icon.png" alt="#" /></span>고객님,
+                        <span style="font-weight: 800">어떤 여행을 꿈꾸시나요?</span>
+                    </h2>
+
+                    <div class="toggle">
+                        <button class="active">호텔</button>
+                        <button>항공</button>
+                    </div>
+
+                    <div class="search-bar">
+                        <form>
+                            <div class="destination">
+                                <p>도착지 입력</p>
+                                <input type="text" placeholder="어디로 떠나세요?" />
+                            </div>
+
+                            <div class="date">
+                                <p>날짜 선택</p>
+                                <input type="text" placeholder="12.16 ~ 12.17" />
+                            </div>
+                            <div class="nofp">
+                                <p>인원수</p>
+                                <input type="number" placeholder="2인" />
+                            </div>
+                            <div class="price-range">
+                                <p>
+                                    최대금액
+                                    <span
+                                        style="
+                                            color: rgb(160, 160, 160);
+                                            margin-left: 30px;
+                                            font-weight: 300;
+                                        "
+                                        >~ 2,850,000</span
+                                    >
+                                </p>
+                                <input
+                                    type="range"
+                                    min="200,5600"
+                                    max="1900,8000"
+                                    value="500,000"
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- --이벤트--------------------------------------------------------->
+                <div class="event">
+                    <h2>이벤트</h2>
+                    <div class="event-list">
+                        <div class="box box1">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>4</span>
+                                        </div>
+
+                                        <h3>베트남 다낭 3박</h3>
+                                        <p class="price">699,000~</p>
+                                        <div class="tag">
+                                            <span>#신상호텔</span>
+                                            <span>#가족여행</span>
+                                            <span>#풀빌라 특가</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box box2">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>3</span>
+                                        </div>
+                                        <h3>태국 방콕 4박</h3>
+                                        <p class="price">850,000~</p>
+                                        <div class="tag">
+                                            <span>#도심호캉스</span>
+                                            <span>#인피니티풀</span>
+                                            <span>#야시장투어</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box box3">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>4</span>
+                                        </div>
+                                        <h3>필리핀 엘니도 3박</h3>
+                                        <p class="price">1,150,000~</p>
+                                        <div class="tag">
+                                            <span>#청정라군</span>
+                                            <span>#스노클링명소</span>
+                                            <span>#힐링여행</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 패키지 --------------------------------------------------------->
+                <div class="package">
+                    <h2>패키지</h2>
+                    <div class="package-list">
+                        <div class="box box1">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <h3>몰디브 5박</h3>
+                                        <p class="price">3,290,000~</p>
+                                        <p class="description">
+                                            전 일정 식사와 선셋 돌핀 크루즈 포함
+                                        </p>
+                                        <div class="tag">
+                                            <span>#허니문추천</span>
+                                            <span>#라군뷰</span>
+                                            <span>#수상방갈로</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box box2">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>4</span>
+                                        </div>
+                                        <h3>두바이 4박</h3>
+                                        <p class="price">2,850,000~</p>
+                                        <p class="description">
+                                            5성급 애프터눈 티 세트 및 사파리 프라이빗 투어
+                                        </p>
+                                        <div class="tag">
+                                            <span>#럭셔리여행</span>
+                                            <span>#중동의진주</span>
+                                            <span>#쇼핑특화</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box box3">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="person">
+                                            <i class="bxr bx-user"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <h3>발리 우붓 4박</h3>
+                                        <p class="price">1,980,000~</p>
+                                        <p class="description">
+                                            정글 뷰 플로팅 조식과 요가 클래스 체험
+                                        </p>
+                                        <p class="tag">
+                                            <span>#요가리트릿</span>
+                                            <span>#정글뷰</span>
+                                            <span>#커플여행</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------실시간TOP-------------------------------------------------------->
+                <div class="top">
+                    <h2>실시간 TOP 온천여행지</h2>
+                    <div class="top-list">
+                        <div class="box box1">
+                            <img src="./assets/images/toplist_1.jpg" alt="삿포로" />
+                            <p>삿포로</p>
+                        </div>
+                        <div class="box box2">
+                            <img src="./assets/images/toplist_2.jpg" alt="벳푸" />
+                            <p>벳푸</p>
+                        </div>
+                        <div class="box box3">
+                            <img src="./assets/images/toplist_3.jpg" alt="파묵칼레" />
+                            <p>파묵칼레</p>
+                        </div>
+                        <div class="box box4">
+                            <img src="./assets/images/toplist_4.jpg" alt="유후인" />
+                            <p>유후인</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------영상링크-------------------------------------------------------->
+                <div class="video">
+                    <h2>투어를 영상으로 만나보세요!</h2>
+                    <div class="video-inner">
+                        <iframe
+                            width="1047"
+                            height="496"
+                            src="https://www.youtube.com/embed/ObpDiA_Jpio?si=kP2hVjsY4jHZNohM"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allowfullscreen
+                        >
+                        </iframe>
+                    </div>
+                </div>
+
+                <!----------------인기여행거리------------------------------------------------------->
+
+                <div class="popular">
+                    <h2>겨울철 인기 여행거리</h2>
+
+                    <div class="popular-list">
+                        <div>
+                            <img src="./assets/images/popular_1.jpg" alt="휴양" />
+                            <p>휴양</p>
+                        </div>
+                        <div>
+                            <img src="./assets/images/popular_2.jpg" alt="온천" />
+                            <p>온천</p>
+                        </div>
+                        <div>
+                            <img src="./assets/images/popular_3.jpg" alt="캠핑" />
+                            <p>캠핑</p>
+                        </div>
+                        <div>
+                            <img src="./assets/images/popular_4.jpg" alt="축제" />
+                            <p>축제</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--광고 배너------->
+                <div class="ad-banner">
+                    <img src="./assets/images/advbanner (2).jpg" alt="블랙 프라이데이 세일" />
+                    <button>타임세일 예약하기</button>
+                </div>
+
+                <!-- 푸터--------------->
+
+                <footer>
+                    <div class="end">
+                        <ul>
+                            <li>회사소개</li>
+                            <li>이용약관</li>
+                            <li>개인정보처리방침</li>
+                            <li>여행약관</li>
+                            <li>해외여행자보험</li>
+                            <li>마케팅제휴</li>
+                            <li>고객센터 1577-1233</li>
+                            <li>15771233@hanatour.com</li>
+                        </ul>
+                        <h3>(주)하나투어 | 대표 송미선</h3>
+                        <p>사업자등록번호 102-81-39440 | 관광사업자등록번호 제1993-000006호</p>
+                        <p class="addr">
+                            <span>(03161) 서울특별시 종로구 민사동 5길 41</span>
+                            <span>팩스 02-734-0392</span>
+                        </p>
+                        <p><a href="#">자주 묻는 질문</a></p>
+                        <div class="end-logo">
+                            <img src="./assets/images/hana_logo_short.png" alt="#" />
+                        </div>
+
+                        <p>COPYRIGHT© HANATOUR SERVICE INC. ALL RIGHTS RESERVED</p>
+                    </div>
+                </footer>
+
+                <!-- 끝 -->
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const mainswiper = new Swiper('.main-banner', {
+                loop: true,
+
+                speed: 500,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+        <script src="js/plugin.js"></script>
+    </body>
+</html>
